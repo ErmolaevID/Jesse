@@ -1,0 +1,19 @@
+{
+  "name": "jesse",
+  "version": "1.0.0",
+  "description": "JavaScript/TypeScript Style Guide",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErmolaevID/Jesse.git"
+  },
+  "author": "Ermolaev Ilya Ermolaev Inc. <Ermolaev.ID@yandex.ru> (https://github.com/Ermolaev-Inc)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ErmolaevID/Jesse/issues"
+  },
+  "homepage": "https://github.com/ErmolaevID/Jesse#readme"
+}
