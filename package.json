@@ -6,6 +6,9 @@
   "scripts": {
     "eslint": "eslint"
   },
+  "devDependencies": {
+    "eslint": "7.1.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ErmolaevID/Jesse.git"
