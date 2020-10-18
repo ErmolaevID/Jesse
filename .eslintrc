@@ -9,6 +9,9 @@
     "semi-spacing": ["error", {"before": false, "after": true}],
     "semi-style": ["error", "last"],
     "indent": ["error", 2],
-    "no-multi-spaces": "error"
+    "no-multi-spaces": "error",
+    "no-multiple-empty-lines": ["error", { "max": 2 }],
+    "prefer-const": "error",
+    "no-use-before-define": "error"
   }
 }
