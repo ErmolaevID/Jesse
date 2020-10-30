@@ -2,13 +2,14 @@
   "env": {
     "es6": true
   },
+  //"parser": "@typescript-eslint/parser",
   "rules": {
     "no-var": "error",
     "semi": ["error", "always", { "omitLastInOneLineBlock": true }],
     "no-extra-semi": "error",
     "semi-spacing": ["error", {"before": false, "after": true}],
     "semi-style": ["error", "last"],
-    "indent": ["error", 2],
+    "indent": ["error", 2, { "SwitchCase": 1 }],
     "no-multi-spaces": "error",
     "no-multiple-empty-lines": ["error", { "max": 2 }],
     "prefer-const": "error",
