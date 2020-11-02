@@ -34,5 +34,6 @@
     "valid-jsdoc": "error",
     "object-curly-spacing": ["error", "always"],
     "array-bracket-spacing": ["error", "never"]
-  }
+  },
+  "ignorePatterns": [] // If you need to ignore files or directories just add into array "path" 
 }
