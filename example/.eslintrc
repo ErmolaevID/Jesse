@@ -1,6 +1,8 @@
 {
   "env": {
-    "es6": true
+    "es6": true,
+    "browser": false,
+    "node": true
   },
   //"parser": "@typescript-eslint/parser",
   "rules": {
@@ -35,5 +37,5 @@
     "object-curly-spacing": ["error", "always"],
     "array-bracket-spacing": ["error", "never"]
   },
-  "ignorePatterns": [] // If you need to ignore files or directories just add into array "path" 
+  "ignorePatterns": [] // If you need to ignore files or directories just add into array "path"
 }
