@@ -18,3 +18,7 @@ setTimeout(() => {
   y -= 5;
 }, 5000);
 
+while (true) {
+  console.log("Infinity loop");
+}
+

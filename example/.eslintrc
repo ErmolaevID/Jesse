@@ -35,7 +35,9 @@
     "no-spaced-func": "error",
     "valid-jsdoc": "error",
     "object-curly-spacing": ["error", "always"],
-    "array-bracket-spacing": ["error", "never"]
+    "array-bracket-spacing": ["error", "never"],
+    "no-constant-condition": ["error", { "checkLoops": false }],
+    "keyword-spacing": "error"
   },
   "ignorePatterns": [] // If you need to ignore files or directories just add into array "path"
 }
