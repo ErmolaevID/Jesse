@@ -13,6 +13,6 @@
   "env": {
     "es6": true
   },
-  "extends": “jesse”
+  "extends": "jesse"
 }
 ```
