@@ -22,3 +22,9 @@ while (true) {
   console.log("Infinity loop");
 }
 
+const getHello = () => {
+  return (
+    "Hello"
+  );
+};
+
