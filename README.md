@@ -9,7 +9,7 @@
 
 ## Usage
 1. In the directory run:
-`npm i eslint eslint-config-jesse -D`
+`npm i eslint eslint-config-jesse @typescript-eslint/eslint-plugin @typescript-eslint/parser -D`
 2. Create .eslintrc file
 3. Add to your .eslintrc
 ```
@@ -17,6 +17,7 @@
   "env": {
     "es6": true
   },
-  "extends": "jesse"
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "extends": ["jesse", "plugin:@typescript-eslint/recommended"]
 }
-```
