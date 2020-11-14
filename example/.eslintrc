@@ -4,7 +4,9 @@
     "browser": false,
     "node": true
   },
-  //"parser": "@typescript-eslint/parser",
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "extends": ["plugin:@typescript-eslint/recommended"],
   "rules": {
     "no-var": "error",
     "semi": ["error", "always", { "omitLastInOneLineBlock": true }],
@@ -37,7 +39,8 @@
     "object-curly-spacing": ["error", "always"],
     "array-bracket-spacing": ["error", "never"],
     "no-constant-condition": ["error", { "checkLoops": false }],
-    "keyword-spacing": "error"
+    "keyword-spacing": "error",
+    "@typescript-eslint/member-delimiter-style": "error"
   },
   "ignorePatterns": [] // If you need to ignore files or directories just add into array "path"
 }
