@@ -20,3 +20,5 @@ const user: IPerson = {
   role: Role.fullStack
 };
 
+const x = 10;
+

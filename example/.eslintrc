@@ -40,7 +40,8 @@
     "array-bracket-spacing": ["error", "never"],
     "no-constant-condition": ["error", { "checkLoops": false }],
     "keyword-spacing": "error",
-    "@typescript-eslint/member-delimiter-style": "error"
+    "@typescript-eslint/member-delimiter-style": "error",
+    "@typescript-eslint/no-inferrable-types": "warn"
   },
   "ignorePatterns": [] // If you need to ignore files or directories just add into array "path"
 }

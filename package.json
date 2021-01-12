@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jesse",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "JavaScript/TypeScript Style Guide",
   "scripts": {
     "eslint": "eslint"
